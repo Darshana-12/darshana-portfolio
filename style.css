@@ -1,0 +1,924 @@
+/* =====================================================
+   PUBLIC SPEAKING PORTFOLIO
+   Darshana Sethia
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:#F7F3EC;
+    color:#3A3A3A;
+    overflow-x:hidden;
+
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar{
+
+    width:100%;
+    background:#0D7377;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 8%;
+
+    position:sticky;
+    top:0;
+
+    z-index:1000;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.12);
+
+}
+
+.logo{
+
+    color:white;
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:.5px;
+
+}
+
+.nav-links{
+
+    display:flex;
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+    color:white;
+
+    font-weight:500;
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#F7E7CE;
+
+}
+
+/* ================= CONTAINER ================= */
+
+.container{
+
+    max-width:1450px;
+
+    margin:40px auto;
+
+    display:grid;
+
+    grid-template-columns:340px 1fr;
+
+    gap:35px;
+
+    padding:0 20px;
+
+}
+
+/* ================= LEFT PANEL ================= */
+
+.left{
+
+    background:#0D7377;
+
+    color:white;
+
+    border-radius:25px;
+
+    padding:35px;
+
+    position:sticky;
+
+    top:110px;
+
+    height:fit-content;
+
+    box-shadow:0 25px 60px rgba(13,115,119,.25);
+
+}
+
+/* ================= PROFILE ================= */
+
+.profile{
+
+    text-align:center;
+
+}
+
+.profile img{
+
+    width:150px;
+    height:150px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:5px solid #F7E7CE;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+}
+
+.profile h1{
+
+    margin-top:18px;
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+.title{
+
+    margin-top:8px;
+
+    font-size:18px;
+
+    color:#F7E7CE;
+
+}
+
+.tagline{
+
+    margin-top:15px;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    color:#EAEAEA;
+
+}
+
+/* ================= BUTTONS ================= */
+
+.hero-buttons{
+
+    margin-top:25px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.btn{
+
+    text-decoration:none;
+
+    background:#F7E7CE;
+
+    color:#0D7377;
+
+    padding:12px 18px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:white;
+
+    transform:translateY(-3px);
+
+}
+
+/* ================= CARDS ================= */
+
+.card{
+
+    margin-top:35px;
+
+}
+
+.card h2{
+
+    color:#F7E7CE;
+
+    margin-bottom:18px;
+
+    font-size:22px;
+
+    position:relative;
+
+}
+
+.card h2::after{
+
+    content:"";
+
+    width:55px;
+
+    height:3px;
+
+    background:white;
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+}
+
+.card p{
+
+    margin-bottom:14px;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+}
+
+.card ul{
+
+    list-style:none;
+
+}
+
+.card li{
+
+    margin-bottom:12px;
+
+    position:relative;
+
+    padding-left:18px;
+
+}
+
+.card li::before{
+
+    content:"•";
+
+    position:absolute;
+
+    left:0;
+
+    color:#F7E7CE;
+
+}
+
+/* ================= TAGS ================= */
+
+.tags{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+}
+
+.tags span{
+
+    background:#6BA8A9;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    transition:.3s;
+
+}
+
+.tags span:hover{
+
+    background:#F7E7CE;
+
+    color:#0D7377;
+
+}
+
+/* ================= RIGHT PANEL ================= */
+
+.right{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+/* ================= SECTIONS ================= */
+
+section{
+
+    background:#FFFCF8;
+
+    border-radius:25px;
+
+    padding:35px;
+
+    border:1px solid #E5DDD0;
+
+    box-shadow:0 15px 45px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+section:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 50px rgba(13,115,119,.15);
+
+}
+
+section h2{
+
+    color:#0D7377;
+
+    margin-bottom:22px;
+
+    font-size:30px;
+
+    position:relative;
+
+}
+
+section h2::after{
+
+    content:"";
+
+    width:70px;
+
+    height:4px;
+
+    background:#C8A97E;
+
+    border-radius:20px;
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-8px;
+
+}
+
+section p{
+
+    line-height:1.9;
+
+    font-size:16px;
+
+    color:#555;
+
+}
+
+/* =====================================================
+   TIMELINE
+===================================================== */
+
+.timeline{
+
+    margin-top:25px;
+
+}
+
+.item{
+
+    position:relative;
+
+    padding-left:30px;
+
+    margin-bottom:35px;
+
+    border-left:4px solid #6BA8A9;
+
+}
+
+.item::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-10px;
+    top:5px;
+
+    width:16px;
+    height:16px;
+
+    background:#0D7377;
+
+    border-radius:50%;
+
+    border:4px solid #F7E3CE;
+
+}
+
+.item h3{
+
+    color:#0D7377;
+
+    font-size:22px;
+
+    margin-bottom:5px;
+
+}
+
+.item span{
+
+    display:block;
+
+    color:#8A8A8A;
+
+    font-style:italic;
+
+    margin-bottom:15px;
+
+    font-size:15px;
+
+}
+
+.item p{
+
+    line-height:1.9;
+
+}
+
+/* =====================================================
+   ACHIEVEMENTS
+===================================================== */
+
+.achievements{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+}
+
+.achievements div{
+
+    background:#F7E7CE;
+
+    color:#0D7377;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    font-weight:600;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+}
+
+.achievements div:hover{
+
+    background:#0D7377;
+
+    color:white;
+
+    transform:translateY(-8px);
+
+}
+
+/* =====================================================
+   PORTFOLIO
+===================================================== */
+
+.portfolio{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:22px;
+
+}
+
+.portfolio div{
+
+    background:linear-gradient(135deg,#0D7377,#6BA8A9);
+
+    color:white;
+
+    padding:30px;
+
+    text-align:center;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.12);
+
+}
+
+.portfolio div:hover{
+
+    transform:translateY(-8px) scale(1.03);
+
+}
+
+.portfolio i{
+
+    margin-bottom:15px;
+
+}
+
+/* =====================================================
+   CONTACT SECTION
+===================================================== */
+
+.contact-box{
+
+    text-align:center;
+
+}
+
+.contact-box p{
+
+    margin:18px 0;
+
+    font-size:18px;
+
+}
+
+.contact-box i{
+
+    color:#0D7377;
+
+    margin-right:10px;
+
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+footer{
+
+    margin-top:10px;
+
+    text-align:center;
+
+    padding:25px;
+
+    color:#666;
+
+    font-size:15px;
+
+}
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#F7F3EC;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#0D7377;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#095C5F;
+
+}
+
+/* =====================================================
+   ANIMATION
+===================================================== */
+
+section{
+
+    animation:fadeUp .8s ease;
+
+}
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* =====================================================
+   IMAGE HOVER
+===================================================== */
+
+.profile img{
+
+    transition:.4s;
+
+}
+
+.profile img:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:1100px){
+
+.container{
+
+    grid-template-columns:1fr;
+
+}
+
+.left{
+
+    position:relative;
+
+    top:0;
+
+}
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.nav-links{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+.hero-buttons{
+
+    flex-direction:row;
+
+    justify-content:center;
+
+}
+
+}
+
+@media(max-width:768px){
+
+body{
+
+    font-size:14px;
+
+}
+
+.container{
+
+    padding:10px;
+
+}
+
+.left{
+
+    padding:25px;
+
+}
+
+.profile img{
+
+    width:120px;
+    height:120px;
+
+}
+
+.profile h1{
+
+    font-size:24px;
+
+}
+
+.title{
+
+    font-size:16px;
+
+}
+
+.card h2{
+
+    font-size:20px;
+
+}
+
+section{
+
+    padding:25px;
+
+}
+
+section h2{
+
+    font-size:24px;
+
+}
+
+.item h3{
+
+    font-size:19px;
+
+}
+
+.portfolio{
+
+    grid-template-columns:1fr;
+
+}
+
+.achievements{
+
+    grid-template-columns:1fr;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.btn{
+
+    text-align:center;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.logo{
+
+    font-size:22px;
+
+}
+
+.nav-links{
+
+    gap:18px;
+
+}
+
+.nav-links a{
+
+    font-size:14px;
+
+}
+
+.profile img{
+
+    width:100px;
+
+    height:100px;
+
+}
+
+.profile h1{
+
+    font-size:22px;
+
+}
+
+.title{
+
+    font-size:15px;
+
+}
+
+.card p{
+
+    font-size:14px;
+
+}
+
+.tags span{
+
+    font-size:12px;
+
+}
+
+section h2{
+
+    font-size:22px;
+
+}
+
+}
+
+/* =====================================================
+   PRINT (Resume Friendly)
+===================================================== */
+
+@media print{
+
+body{
+
+    background:white;
+
+}
+
+.navbar{
+
+    display:none;
+
+}
+
+.left{
+
+    position:relative;
+
+    box-shadow:none;
+
+}
+
+section{
+
+    box-shadow:none;
+
+    page-break-inside:avoid;
+
+}
+
+.btn{
+
+    display:none;
+
+}
+
+footer{
+
+    display:none;
+
+}
+
+}
