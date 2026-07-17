@@ -300,3 +300,125 @@ behavior:"smooth"
 });
 
 });
+
+function showPortfolio(type){
+
+const content=document.getElementById("portfolioContent");
+
+if(type==="anchoring"){
+
+content.innerHTML=`
+
+<h2>Event Anchoring</h2>
+
+<div class="gallery">
+
+<img src="images/annualday1.jpg">
+
+<img src="images/annualday2.jpg">
+
+<img src="images/annualday3.jpg">
+
+</div>
+
+<div class="description">
+
+<p>
+
+Hosted Annual Day celebrations, orientation programmes,
+technical fests, prize distribution ceremonies and
+cultural festivals across schools and colleges.
+
+</p>
+
+<ul>
+
+<li>Hosted audiences of 1000+ participants.</li>
+
+<li>Formal and cultural anchoring.</li>
+
+<li>Technical event hosting.</li>
+
+<li>Guest introduction and felicitation.</li>
+
+</ul>
+
+</div>
+
+`;
+
+}
+
+else if(type==="speaking"){
+
+content.innerHTML=`
+
+<h2>Public Speaking Sessions</h2>
+
+<div class="gallery">
+
+<img src="images/workshop1.jpg">
+
+<img src="images/workshop2.jpg">
+
+</div>
+
+<div class="description">
+
+<p>
+
+Interactive classroom sessions focused on confidence
+building, voice modulation, articulation and stage presence.
+
+</p>
+
+<ul>
+
+<li>50+ students mentored.</li>
+
+<li>Confidence building exercises.</li>
+
+<li>Presentation skills.</li>
+
+<li>Leadership activities.</li>
+
+</ul>
+
+</div>
+
+`;
+
+}
+
+else if(type==="events"){
+
+content.innerHTML=`
+
+<h2>Event Highlights</h2>
+
+<div class="gallery">
+
+<img src="images/event1.jpg">
+
+<img src="images/event2.jpg">
+
+<img src="images/event3.jpg">
+
+</div>
+
+<div class="description">
+
+<p>
+
+A glimpse into various cultural festivals,
+technical events and institutional programmes.
+
+</p>
+
+</div>
+
+`;
+
+}
+
+}
