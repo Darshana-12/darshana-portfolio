@@ -313,11 +313,9 @@ content.innerHTML=`
 
 <div class="gallery">
 
-<img src="images/annualday1.jpg">
+<img src="images/abvk1.jpeg" alt="ABVK Event 1">
 
-<img src="images/annualday2.jpg">
-
-<img src="images/annualday3.jpg">
+<img src="images/abvk2.jpeg" alt="ABVK Event 2">
 
 </div>
 
@@ -325,62 +323,21 @@ content.innerHTML=`
 
 <p>
 
-Hosted Annual Day celebrations, orientation programmes,
-technical fests, prize distribution ceremonies and
-cultural festivals across schools and colleges.
+Mentored and trained school students for formal and cultural anchoring events, helping them develop confidence, stage presence, voice modulation, and effective communication skills.
 
 </p>
 
 <ul>
 
-<li>Hosted audiences of 1000+ participants.</li>
+<li>Trained 50+ students.</li>
 
-<li>Formal and cultural anchoring.</li>
+<li>Annual Day preparation.</li>
 
-<li>Technical event hosting.</li>
+<li>Prize Distribution ceremonies.</li>
 
-<li>Guest introduction and felicitation.</li>
+<li>Formal and cultural event hosting.</li>
 
-</ul>
-
-</div>
-
-`;
-
-}
-
-else if(type==="speaking"){
-
-content.innerHTML=`
-
-<h2>Public Speaking Sessions</h2>
-
-<div class="gallery">
-
-<img src="images/workshop1.jpg">
-
-<img src="images/workshop2.jpg">
-
-</div>
-
-<div class="description">
-
-<p>
-
-Interactive classroom sessions focused on confidence
-building, voice modulation, articulation and stage presence.
-
-</p>
-
-<ul>
-
-<li>50+ students mentored.</li>
-
-<li>Confidence building exercises.</li>
-
-<li>Presentation skills.</li>
-
-<li>Leadership activities.</li>
+<li>Confidence-building through practical stage activities.</li>
 
 </ul>
 
@@ -398,11 +355,29 @@ content.innerHTML=`
 
 <div class="gallery">
 
-<img src="images/event1.jpg">
+<img src="images/robo1.jpeg">
 
-<img src="images/event2.jpg">
+<img src="images/robo2.jpeg">
 
-<img src="images/event3.jpg">
+<img src="images/robo3.jpeg">
+
+<img src="images/robo4.jpeg">
+
+<img src="images/robo5.jpeg">
+
+<img src="images/robo6.jpeg">
+
+<img src="images/robopre1.jpeg">
+
+<img src="images/sambhram1.jpeg">
+
+<img src="images/sambhram2.jpeg">
+
+<img src="images/sambhrampre1.jpeg">
+
+<img src="images/sambhrampre2.jpeg">
+
+<img src="images/sambhrampre3.jpeg">
 
 </div>
 
@@ -410,10 +385,27 @@ content.innerHTML=`
 
 <p>
 
-A glimpse into various cultural festivals,
-technical events and institutional programmes.
+A collection of memorable moments from technical fests, cultural festivals, orientation programmes, public speaking workshops, and institutional events hosted and coordinated across schools and colleges.
 
 </p>
+
+<ul>
+
+<li>Robofiesta 2025 – National Level Technical Fest.</li>
+
+<li>Sambhram Cultural Fest.</li>
+
+<li>Orientation & Induction Programmes.</li>
+
+<li>Guest Lectures & Institutional Functions.</li>
+
+<li>Prize Distribution Ceremonies.</li>
+
+<li>Technical Workshops.</li>
+
+<li>Stage Management & Master of Ceremonies.</li>
+
+</ul>
 
 </div>
 
