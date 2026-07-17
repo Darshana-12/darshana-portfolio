@@ -369,7 +369,7 @@ content.innerHTML=`
 <ul> <li>Robofiesta 2025 – National Level Technical Fest.</li> 
 <li>Presented as an anchor for the main event as well as in the inauguration and valedictory ceremonies of the main event.</li>
 <li>Felicitated with a memento as the head of the speakers team of Robofiesta 2025.</li></ul>
-
+<br>
 <img src="images/sambhram1.jpeg">
 
 <img src="images/sambhram2.jpeg">
