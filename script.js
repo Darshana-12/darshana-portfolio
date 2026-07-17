@@ -329,7 +329,7 @@ Mentored and trained school students for formal and cultural anchoring events, h
 
 <ul>
 
-<li>Trained 50+ students.</li>
+<li>Trained 30+ students.</li>
 
 <li>Annual Day preparation.</li>
 
@@ -369,6 +369,10 @@ content.innerHTML=`
 
 <img src="images/robopre1.jpeg">
 
+<ul> <li>Robofiesta 2025 – National Level Technical Fest.</li> 
+<li>Presented as an anchor for the main event as well as in the inauguration and valedictory ceremonies of the main event.</li>
+<li>Felicitated with a memento as the head of the speakers team of Robofiesta 2025.</li></ul>
+
 <img src="images/sambhram1.jpeg">
 
 <img src="images/sambhram2.jpeg">
@@ -378,6 +382,10 @@ content.innerHTML=`
 <img src="images/sambhrampre2.jpeg">
 
 <img src="images/sambhrampre3.jpeg">
+
+<ul> <li>Sambhram Cultural Fest.</li>
+<li>Anchored for various events in Sambhram 2024, Sambhram 2025 and Sambhram 2026. </li>
+<li> Presented as an anchor for the main event as well as in the inauguration and valedictory ceremonies of the main event.</li> </ul>
 
 </div>
 
@@ -390,10 +398,6 @@ A collection of memorable moments from technical fests, cultural festivals, orie
 </p>
 
 <ul>
-
-<li>Robofiesta 2025 – National Level Technical Fest.</li>
-
-<li>Sambhram Cultural Fest.</li>
 
 <li>Orientation & Induction Programmes.</li>
 
