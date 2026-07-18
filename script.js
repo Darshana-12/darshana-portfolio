@@ -353,68 +353,89 @@ content.innerHTML=`
 
 <h2>Event Highlights</h2>
 
+<!-- ================= ROBOFIESTA ================= -->
+
 <div class="gallery">
 
-<img src="images/robo1.jpeg">
-
-<img src="images/robo2.jpeg">
-
-<img src="images/robo3.jpeg">
-
-<img src="images/robo4.jpeg">
-
-<img src="images/robo6.jpeg">
-<br> 
-
-<ul> <li>Robofiesta 2025 – National Level Technical Fest.</li> 
-<li>Presented as an anchor for the main event as well as in the inauguration and valedictory ceremonies of the main event.</li>
-<li>Felicitated with a memento as the head of the speakers team of Robofiesta 2025.</li></ul>
-<br>
-<img src="images/sambhram1.jpeg">
-
-<img src="images/sambhram2.jpeg">
-
-<img src="images/sambhram3.jpeg">
-
-<img src="images/sambhrampre1.jpeg">
-
-<img src="images/sambhrampre2.jpeg">
-
-<img src="images/sambhrampre3.jpeg">
-<br>
-
-<ul> <li>Sambhram Cultural Fest.</li>
-<li>Anchored for various events in Sambhram 2024, Sambhram 2025 and Sambhram 2026. </li>
-<li> Presented as an anchor for the main event as well as in the inauguration and valedictory ceremonies of the main event.</li> </ul>
+    <img src="images/robo1.jpeg">
+    <img src="images/robo2.jpeg">
+    <img src="images/robo3.jpeg">
+    <img src="images/robo4.jpeg">
+    <img src="images/robo6.jpeg">
 
 </div>
-<br>
+
 <div class="description">
 
-<p>
-
-A collection of memorable moments from technical fests, cultural festivals, orientation programmes, public speaking workshops, and institutional events hosted and coordinated across schools and colleges.
-
-</p>
+<h3>Robofiesta 2025</h3>
 
 <ul>
 
-<li>Orientation & Induction Programmes.</li>
+<li>National Level Technical Fest conducted at RVITM.</li>
 
-<li>Guest Lectures & Institutional Functions.</li>
+<li>Anchored the inauguration, main event and valedictory ceremony.</li>
 
-<li>Prize Distribution Ceremonies.</li>
+<li>Led the Speakers Team as the Head of the committee.</li>
 
-<li>Technical Workshops.</li>
-
-<li>Stage Management & Master of Ceremonies.</li>
+<li>Honoured with a memento for leadership and contribution.</li>
 
 </ul>
 
 </div>
 
+<!-- ================= SAMBHRAM ================= -->
+
+<div class="gallery">
+
+    <img src="images/sambhram1.jpeg">
+    <img src="images/sambhram2.jpeg">
+    <img src="images/sambhram3.jpeg">
+    <img src="images/sambhrampre1.jpeg">
+    <img src="images/sambhrampre2.jpeg">
+    <img src="images/sambhrampre3.jpeg">
+
+</div>
+
+<div class="description">
+
+<h3>Sambhram Cultural Fest</h3>
+
+<ul>
+
+<li>Anchored multiple events across Sambhram 2024, 2025 and 2026.</li>
+
+<li>Hosted cultural programmes with large student audiences.</li>
+
+<li>Conducted formal stage announcements and guest introductions.</li>
+
+<li>Managed stage flow and audience engagement throughout the events.</li>
+
+</ul>
+
+</div>
+
+<div class="description">
+
+<h3>Other Experiences</h3>
+
+<ul>
+
+<li>Orientation & Induction Programmes.</li>
+
+<li>Guest Lectures.</li>
+
+<li>Prize Distribution Ceremonies.</li>
+
+<li>Technical Workshops.</li>
+
+<li>Public Speaking Sessions.</li>
+
+<li>Master of Ceremonies.</li>
+
+</ul>
+
+</div>
 `;
 
 }
-
 }
